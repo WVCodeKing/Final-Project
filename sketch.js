@@ -1,4 +1,9 @@
 let shirt = new Shirt(20, 20);
+let shirtImg;
+
+function preload() {
+  shirtImg = loadImage("assets/Tshirt.png");
+}
 
 function setup() {
     createCanvas(400, 400);
