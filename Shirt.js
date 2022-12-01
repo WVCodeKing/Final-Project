@@ -6,6 +6,7 @@ class Shirt extends Clothing {
     display(){
         if(this.x < 25 & this.x < 35){
             // nostroke()
+            // comment
             // rect(this.x, this.y, 100,)
             image(shirtImg, this.x, this.y, 100, 100);
         }  
