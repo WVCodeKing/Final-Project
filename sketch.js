@@ -14,7 +14,7 @@ function preload() {
 }
 
 function setup() {
-  cnv = createCanvas(500, 500);
+  cnv = createCanvas(windowWidth, windowHeight);
   background(0, 0, 255);
   button = createButton("START");
   button.position(175, 225);
