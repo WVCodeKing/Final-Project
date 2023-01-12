@@ -1,8 +1,89 @@
 html, body {
-    margin: 0;
-    padding: 0;
-  }
-  canvas {
-    display: block;
-  }
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+
+#myButton {
+height: 50px;
+width: 150px;
+background-color: hotpink;
+}
+
+#buttonBar {
+position: absolute;
+top: 20px;
+left: 3.5px;
+
+display: none;
+}
+
+#greenButton {
+ background-color: forestgreen;
+}
+
+#redButton {
+ background-color: crimson;
+}
+
+#orangeButton {
+ background-color: coral;
+}
+
+#brownButton {
+ background-color: burlywood;
+}
+
+#blueButton {
+ background-color: cornflowerblue;
+}
+
+#purpleButton {
+ background-color: indigo;
+ color: white;
+}
+
+#yellowButton {
+ background-color: lightgoldenrodyellow;
+}
+
+#blackButton {
+ background-color: black;
+ color: white;
+}
+
+#whiteButton {
+ background-color: white;
+ color: black;
+}
+
+#addSizeButton {
+position: absolute;
+top: 60px;
+left: 1px;
+}
+
+#minusSizeButton {
+position: absolute;
+top: 82px;
+left: 2px;
+}
+
+#clearButton {
+position: absolute;
+top: 120px;
+left: 4px;
+}
+
+#nextButton {
+position: absolute;
+top: 420px;
+left: 192px;
+height: 40px;
+width: 120px;
+background-color: hotpink;
+}
   

@@ -1,18 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8" />
 
-  </head>
-  <body>
-    <main>
-    </main>
-    <script src="Clothing.js"></script>
-    <script src="Top.js"></script>
-    <script src="sketch.js"></script>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8" />
 
-  </body>
+</head>
+
+<body>
+  <main>
+    <div id="buttonBar">
+      <button id="greenButton" onclick="changeColor('forestgreen')">FOREST GREEN</button>
+      <button id="redButton"
+onclick="changeColor('crimson')">CRIMSON</button> 
+      <button id="orangeButton" onclick="changeColor('coral')">CORAL</button>
+      <button id="brownButton"
+onclick="changeColor('burlywood')">BURLYWOOD</button>
+      <button id="blueButton"
+onclick="changeColor('cornflowerblue')">CORNFLOWER</button>
+      <button id="purpleButton" onclick="changeColor('indigo')">INDIGO</button>
+      <button id="yellowButton"
+onclick="changeColor('lightgoldenrodyellow')">LIGHT GOLDENROD</button>
+       <button id="blackButton"
+onclick="changeColor('black')">BLACK</button>
+       <button id="whiteButton"
+onclick="changeColor('white')">WHITE</button>
+       <button id="addSizeButton"
+onclick="addStrokeSize(penSize)"> + STROKE</button>
+       <button id="minusSizeButton"
+onclick="minusStrokeSize(penSize)"> - STROKE</button>
+      <button id="clearButton"
+onclick="top1.clearStrokes()">CLEAR</button>
+    </div>
+  </main>
+  <script src="Clothing.js"></script>
+  <script src="Top.js"></script>
+  <script src="Paintbrush.js"></script>
+  <script src="sketch.js"></script>
+</body>
+
 </html>
